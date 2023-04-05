@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.platform.dao.TemplateMapper">
+
+    <insert id="add" parameterType="com.platform.dto.template.TemplateDto">
+        insert into template
+        values (null,#{templateType}, #{templateId}, #{templateContent}, #{templateName},
+                #{templateParams}, #{wxTemplateId},#{templateCreatedBy})
+    </insert>
+
+    <select id="templateList" parameterType="com.platform.dto.template.TemplateDto" resultType="com.platform.dto.template.TemplatePo">
+        Select template_type,template_created_by,template_name,template_id from template
+        <where>
+            template_id like #{templateId} and template_name like #{templateName}
+            <if test="templateType != null and templateType !=''">
+                and template_type = #{templateType}
+            </if>
+        </where>
+        limit #{start},#{end}
+    </select>
+
+
+    <select id="selectCount" parameterType="com.platform.dto.template.TemplateDto" resultType="Integer" >
+        Select count(1) from template
+        <where>
+            template_id like #{templateId} and template_name like #{templateName}
+            <if test="templateType != null and templateType !=''">
+                and template_type = #{templateType}
+            </if>
+        </where>
+    </select>
+</mapper>

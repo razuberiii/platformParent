@@ -1,0 +1,21 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: springcloud-gateway
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allow-credentials: true
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+      routes:
+        - id: user #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: http://localhost:8080 #匹配后提供服务的路由地址
+          predicates: #匹配后提供服务的路由地址
+            - Path=/mp/internet/wechat/**  # 断言，路径相匹配的进行路由
+          filters: # 过滤器,请求在传递过程中可以通过过滤器对其进行一定的修改

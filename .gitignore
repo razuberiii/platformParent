@@ -1,0 +1,6 @@
+# 项目排除路径
+/ApiCommon/target/
+/gateway5001/target/
+/platform/target/
+/sendMessage/target/
+/target/

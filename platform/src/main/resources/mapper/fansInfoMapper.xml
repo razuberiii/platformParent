@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.platform.dao.FansInfoMapper">
+
+    <insert id="insertFansInfo" parameterType="com.platform.dto.fansInfo.FansInfoPo">
+        insert into fans_info(subscribe, openid, sex, subscribe_time, bind_status, subscribe_scene)
+        values (#{subscribe}, #{openid}, #{sex}, #{subscribeTime},
+                #{bindStatus}, #{subscribeScene})
+    </insert>
+
+    <select id="queryFansInfo" parameterType="com.platform.dto.fansInfo.FansInfoDto" resultType="Integer">
+        select count(1) from fans_info where subscribe_time &gt; #{subscribeTimeStart} and subscribe_time &lt; #{subscribeTimeEnd}
+                                         and sex = #{sex} and bind_status=#{bindStatus} and subscribe_scene= #{subscribeScene}
+    </select>
+
+    <select id="queryFansOpenid" parameterType="com.platform.dto.fansInfo.FansInfoDto" resultType="String">
+        select openid from fans_info where subscribe_time &gt; #{subscribeTimeStart} and subscribe_time &lt; #{subscribeTimeEnd}
+                                         and sex = #{sex} and bind_status=#{bindStatus} and subscribe_scene= #{subscribeScene}
+    </select>
+
+    <select id="sendFirstMessage" resultType="String" >
+        select openid from fans_info where subscribe_time &gt; #{nowTime}-172800000 and is_send_first_message is null
+    </select>
+
+    <update id="updateIsSendFirstMessage">
+<foreach collection="List" item = "item">
+    update fans_info set is_send_first_message = 1 where openid=#{item};
+</foreach>
+    </update>
+</mapper>

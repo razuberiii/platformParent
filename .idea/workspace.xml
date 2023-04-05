@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11973949-7582-4789-9e6e-4a2d73a20bcd" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\Users\71000\Desktop\tool\new-settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29yDvxicUNX8MckiMnztjuIXL4s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideacode\platformParent\ApiCommon\src\main\java\entity" />
+      <recent name="D:\ideacode\platformParent\ApiCommon\src\main\java" />
+      <recent name="D:\ideacode\platformParent\gateway5001\src\main\java\com\yiliedu\gateway" />
+      <recent name="D:\ideacode\platformParent\platform\src\main\java" />
+      <recent name="D:\ideacode\platformParent\platform\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideacode\platformParent\platform\src\main\resources\mapper" />
+      <recent name="D:\ideacode\platformParent\platform\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yiliedu.gateway.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SendMessageApplication">
+    <configuration name="FansInfoController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiliedu.platform.controller.FansInfoController" />
+      <module name="platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiliedu.platform.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSAUtil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.RSAUtil" />
+      <module name="ApiCommon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.insertData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="insertData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayMain5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway5001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiliedu.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yiliedu.gateway.GatewayMain5001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yiliedu.platform.PlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sendMessage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yili.sendMessage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yili.sendMessage.SendMessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayMain5001" />
+        <item itemvalue="Spring Boot.SendMessageApplication" />
+        <item itemvalue="应用程序.FansInfoController" />
+        <item itemvalue="JUnit.MyTest.insertData" />
+        <item itemvalue="应用程序.RSAUtil (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="11973949-7582-4789-9e6e-4a2d73a20bcd" name="变更" comment="" />
+      <created>1654076667277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654076667277</updated>
+      <workItem from="1654076668586" duration="2521000" />
+      <workItem from="1654264377150" duration="962000" />
+      <workItem from="1654313652818" duration="31414000" />
+      <workItem from="1655373303024" duration="1407000" />
+      <workItem from="1655692250344" duration="3825000" />
+      <workItem from="1655706492342" duration="1039000" />
+      <workItem from="1655792559815" duration="6701000" />
+      <workItem from="1655802988004" duration="15974000" />
+      <workItem from="1655959244261" duration="2482000" />
+      <workItem from="1655962180575" duration="152000" />
+      <workItem from="1655962350192" duration="19239000" />
+      <workItem from="1656057495732" duration="11598000" />
+      <workItem from="1656069468686" duration="2000" />
+      <workItem from="1656069530644" duration="596000" />
+      <workItem from="1656225627475" duration="7158000" />
+      <workItem from="1656234886531" duration="11631000" />
+      <workItem from="1656322524759" duration="8918000" />
+      <workItem from="1656384965170" duration="24860000" />
+      <workItem from="1656411491223" duration="835000" />
+      <workItem from="1656412636058" duration="65000" />
+      <workItem from="1656554962908" duration="3302000" />
+      <workItem from="1656843803301" duration="336000" />
+      <workItem from="1656846073569" duration="5978000" />
+      <workItem from="1657269776864" duration="2251000" />
+      <workItem from="1657421480948" duration="7000" />
+      <workItem from="1657421491325" duration="3576000" />
+      <workItem from="1657787868556" duration="6000" />
+      <workItem from="1665941360676" duration="1676000" />
+      <workItem from="1666007226442" duration="2272000" />
+      <workItem from="1666019281963" duration="340000" />
+      <workItem from="1668357295166" duration="698000" />
+      <workItem from="1673618272036" duration="295000" />
+      <workItem from="1675404195562" duration="342000" />
+      <workItem from="1676118017904" duration="2295000" />
+      <workItem from="1680702411563" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

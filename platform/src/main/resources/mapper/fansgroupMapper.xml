@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.platform.dao.FansGroupMapper">
+
+    <insert id="addTag" parameterType="com.platform.dto.FansGroupDto">
+        insert into fansgroup_data values(null,#{dateCreated},#{tagId},#{createdBy},#{tagType},#{description},#{fansCount},#{tagName})
+    </insert>
+    <update id="updateTagCount" >
+      update fansgroup_info set local_tag = local_tag+${localTag} , rule_tag = rule_tag+${ruleTag}
+    </update>
+
+    <update id="updateFansgroupData" parameterType="com.platform.dto.FansGroupDto" >
+        update fansgroup_data set description = #{description},tag_name=#{name},tag_id=#{tagId} ,tag_type = #{type} where tag_id=#{tagId}
+    </update>
+
+    <update id="tagBindingRule" parameterType="com.platform.dto.fansInfo.FansInfoDto" >
+        update fansgroup_data set fans_count = #{fansCount},subscribe_time_start=#{subscribeTimeStart},subscribe_time_end=#{subscribeTimeEnd}
+                                ,sex = #{sex},bind_status=#{bindStatus},subscribe_scene=#{subscribeScene} where tag_id=#{tagId}
+    </update>
+</mapper>
